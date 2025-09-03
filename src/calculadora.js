@@ -6,10 +6,6 @@ function somarDoisNumeros (valor1, valor2){
     return resultado;
 }
 
-module.exports = { 
-    somarDoisNumeros
-}
-
 // REALIZAR SOMA DOS CAMPOS DA TELA = NÚMEROS DIGITADOS E EXIBE O VALOR
 
 function calcularMediaDeDoisNumeros (valor1, valor2){
@@ -23,7 +19,6 @@ function calcularMediaDeDoisNumeros (valor1, valor2){
     return resultadoDaMediaDeDoisValores;
 }
 
-
 module.exports = { 
-    calcularMediaDeDoisNumeros
+    somarDoisNumeros
 }
